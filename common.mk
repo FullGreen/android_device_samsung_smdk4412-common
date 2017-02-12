@@ -102,9 +102,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
 
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/apns-full-conf.xml:system/etc/apns-conf.xml
-
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     make_ext4fs \
